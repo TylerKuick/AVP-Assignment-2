@@ -1,0 +1,15 @@
+C:\Users\Tyler\OneDrive\Desktop\Advanced Programming\Assignment 2\ASN2_Student_Resource\SectionA\obj\Debug\net7.0\SectionA.csproj.AssemblyReference.cache
+C:\Users\Tyler\OneDrive\Desktop\Advanced Programming\Assignment 2\ASN2_Student_Resource\SectionA\obj\Debug\net7.0\SectionA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tyler\OneDrive\Desktop\Advanced Programming\Assignment 2\ASN2_Student_Resource\SectionA\obj\Debug\net7.0\SectionA.AssemblyInfoInputs.cache
+C:\Users\Tyler\OneDrive\Desktop\Advanced Programming\Assignment 2\ASN2_Student_Resource\SectionA\obj\Debug\net7.0\SectionA.AssemblyInfo.cs
+C:\Users\Tyler\OneDrive\Desktop\Advanced Programming\Assignment 2\ASN2_Student_Resource\SectionA\obj\Debug\net7.0\SectionA.csproj.CoreCompileInputs.cache
+C:\Users\Tyler\OneDrive\Desktop\Advanced Programming\Assignment 2\ASN2_Student_Resource\SectionA\bin\Debug\net7.0\SectionA.exe
+C:\Users\Tyler\OneDrive\Desktop\Advanced Programming\Assignment 2\ASN2_Student_Resource\SectionA\bin\Debug\net7.0\SectionA.deps.json
+C:\Users\Tyler\OneDrive\Desktop\Advanced Programming\Assignment 2\ASN2_Student_Resource\SectionA\bin\Debug\net7.0\SectionA.runtimeconfig.json
+C:\Users\Tyler\OneDrive\Desktop\Advanced Programming\Assignment 2\ASN2_Student_Resource\SectionA\bin\Debug\net7.0\SectionA.dll
+C:\Users\Tyler\OneDrive\Desktop\Advanced Programming\Assignment 2\ASN2_Student_Resource\SectionA\bin\Debug\net7.0\SectionA.pdb
+C:\Users\Tyler\OneDrive\Desktop\Advanced Programming\Assignment 2\ASN2_Student_Resource\SectionA\obj\Debug\net7.0\SectionA.dll
+C:\Users\Tyler\OneDrive\Desktop\Advanced Programming\Assignment 2\ASN2_Student_Resource\SectionA\obj\Debug\net7.0\refint\SectionA.dll
+C:\Users\Tyler\OneDrive\Desktop\Advanced Programming\Assignment 2\ASN2_Student_Resource\SectionA\obj\Debug\net7.0\SectionA.pdb
+C:\Users\Tyler\OneDrive\Desktop\Advanced Programming\Assignment 2\ASN2_Student_Resource\SectionA\obj\Debug\net7.0\SectionA.genruntimeconfig.cache
+C:\Users\Tyler\OneDrive\Desktop\Advanced Programming\Assignment 2\ASN2_Student_Resource\SectionA\obj\Debug\net7.0\ref\SectionA.dll
