@@ -48,8 +48,13 @@ def calculateCostReduced():
                              filter(lambda x: x.HireType == "PartTime",                              # Second filter to find part-time employees 
                                     filter(lambda x: 1995 < x.StartDate.year < 1999, hr_list))))     # First filter to find employees hired within 1995 to 1999
     
-
+    total_payout = reduce(lambda x,y: x + y, 
+                          map(lambda x: x.MonthlyPayout, 
+                              filter(lambda x: x.HireType == "PartTime",
+                                     filter(lambda x: 1995 < x.StartDate.year < 1999, hr_list))))
+    
     print(f"Total costs saved from retrenching part-time employees who joined between the year 1995 and 1999 was ${total_saved}.")
+    print(f"Total amount of salaries paid to retrenched employees was ${total_payout}.")
 
 
 # Main Program
