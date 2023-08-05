@@ -42,19 +42,10 @@ def read_HRMaster(fileA):
 
 # Filter HR List and calculate 
 def calculateCostReduced():
-    hr_list = read_HRMaster("HRMasterlistB.txt")    # Read and store employee records into a list
-    total_saved = reduce(lambda x,y: x + y,                                                          # Sum all of the salaries found to get total cost reduced
-                        map(lambda x: x.Salary - x.MonthlyPayout,                                    # Extract only the Salaries of those found from the two filters 
-                             filter(lambda x: x.HireType == "PartTime",                              # Second filter to find part-time employees 
-                                    filter(lambda x: 1995 < x.StartDate.year < 1999, hr_list))))     # First filter to find employees hired within 1995 to 1999
-    
-    total_payout = reduce(lambda x,y: x + y, 
-                          map(lambda x: x.MonthlyPayout, 
-                              filter(lambda x: x.HireType == "PartTime",
-                                     filter(lambda x: 1995 < x.StartDate.year < 1999, hr_list))))
+    hr_list = read_HRMaster("HRMasterlistB.txt")    # Read and store employee records into a list   # Sum all of the salaries found to get total cost reduced    # Extract only the Salaries of those found from the two filters # Second filter to find part-time employees # First filter to find employees hired within 1995 to 1999
+    total_saved = reduce(lambda x,y: x + y, map(lambda x: x.Salary, filter(lambda x: x.HireType == "PartTime", filter(lambda x: 1995 < x.StartDate.year < 1999, hr_list))))     
     
     print(f"Total costs saved from retrenching part-time employees who joined between the year 1995 and 1999 was ${total_saved}.")
-    print(f"Total amount of salaries paid to retrenched employees was ${total_payout}.")
 
 
 # Main Program

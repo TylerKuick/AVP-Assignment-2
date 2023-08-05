@@ -49,7 +49,7 @@ namespace SectionB {
                 sw.WriteLine($"{emp.Nric}|{emp.FullName}|{emp.Salutation}|{emp.StartDate.ToString("dd/MM/yyyy")}|{emp.Designation}|{emp.Department}|{emp.MobileNo}|{emp.HireType}|{emp.Salary}|{emp.MonthlyPayout}");
             }
             sw.Close();
-            Console.WriteLine("Complete!");
+            Console.WriteLine("Processing Complete!");
         }
         static void Main() {
             updateMonthlyPayoutToMasterlist().Wait();
